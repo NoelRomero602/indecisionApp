@@ -32,7 +32,7 @@ constructor(props){
 
     handleSubOne(){
 
-
+    console.log("hes")
         this.setState((prevState) => {
             return{  
             count: prevState.count -1
