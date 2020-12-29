@@ -12,7 +12,7 @@ constructor(props){
        this.handleSubOne = this.handleSubOne.bind(this);
        this.handleReset = this.handleReset.bind(this);
        this.state = {
-           count: 0,
+           count: props.count,
        };
 
 }
@@ -69,7 +69,9 @@ constructor(props){
         );
     }
 }
-
+Counter.defaultProps = {
+    count: 0,
+}
 
 ReactDOM.render(<Counter/>,document.getElementById('app'));
 
