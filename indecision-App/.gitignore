@@ -1,0 +1,9 @@
+#ignore Node modules 
+
+npm-debug.log
+
+node_modules
+
+node_modules/
+
+indecision-App/node_modules/
